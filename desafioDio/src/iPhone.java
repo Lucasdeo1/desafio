@@ -1,4 +1,3 @@
-
 import interfaces.*;
 
 public class iPhone implements ReprodutorMusical, AparelhoTelefonico, NavegadorInternet {
@@ -48,24 +47,20 @@ public class iPhone implements ReprodutorMusical, AparelhoTelefonico, NavegadorI
     }
 
     public static void main(String[] args) {
-        // Criando uma instância de iPhone
         iPhone iphone = new iPhone();
 
-        // Demonstrando os comportamentos de Reprodutor Musical
         System.out.println("----- Reprodutor Musical -----");
         iphone.selecionarMusica("Nome da música");
         iphone.tocar();
         iphone.pausar();
 
-        // Demonstrando os comportamentos de Aparelho Telefônico
         System.out.println("\n----- Aparelho Telefônico -----");
         iphone.ligar();
         iphone.atender();
         iphone.iniciarCorreioVoz();
 
-        // Demonstrando os comportamentos de Navegador na Internet
         System.out.println("\n----- Navegador na Internet -----");
-        iphone.exibirPagina("www.example.com");
+        iphone.exibirPagina("www.dio.me");
         iphone.adicionarNovaAba("www.google.com");
         iphone.atualizarPagina();
     }

@@ -1,18 +1,27 @@
-## Getting Started
+## POO - Desafio
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Código no que se refere ao componente iPhone.
 
-## Folder Structure
+Papéis do iPhone
+Este projeto visa modelar os diferentes papéis desempenhados pelo iPhone, representados pelas seguintes funcionalidades:
 
-The workspace contains two folders by default, where:
+#Reprodutor Musical:
+Tocar música: Capacidade de reproduzir faixas de áudio.
+Pausar música: Capacidade de pausar a reprodução de uma faixa de áudio.
+Selecionar música: Capacidade de selecionar uma música específica para reprodução.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+#Aparelho Telefônico:
+Ligar: Capacidade de iniciar uma chamada telefônica.
+Atender chamadas: Capacidade de responder a uma chamada recebida.
+Iniciar correio de voz: Capacidade de iniciar o serviço de correio de voz.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+#Navegador na Internet:
+Exibir página: Capacidade de carregar e exibir uma página da web.
+Adicionar nova aba: Capacidade de abrir uma nova aba no navegador.
+Atualizar página: Capacidade de recarregar e atualizar o conteúdo de uma página da web.
+Cada um desses papéis representa uma faceta importante do funcionamento do iPhone, proporcionando ao usuário uma ampla gama de funcionalidades.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+###### Comportamentos esperados:
+* Repodutor Musicial: tocar, pausar, selecionarMusica
+* Aparelho Telefônico: ligar, atender, iniciarCorrerioVoz
+* Navegador na Internet: exibirPagina, adicionarNovaAba, atualizarPagina
